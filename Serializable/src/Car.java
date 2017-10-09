@@ -53,14 +53,14 @@ public void setModelNumber(int modelNumber) {
 //No need to implement serializable interface in subclass explicitly.  
 
 // 2. If Super class is not Serializable but subclass is:
-//In case super class is not Serializable than to serialize the subclass’s object we must 
+//In case super class is not Serializable than to serialize the subclassâ€™s object we must 
 //implement serializable interface in subclass explicitly. 
 //In this case the superclass must have a no-argument constructor in it. 
 //In can have parameterized constructor as well but it should definitely have a constructor with no arguments
 
-// 3. If the superclass is serializable but we don’t want the subclass to be serialized.
+// 3. If the superclass is serializable but we donâ€™t want the subclass to be serialized.
 //To prevent subclass from being serialized we must implement writeObject() and readObject()
 //method in the sub class and need to throw NotSerializableException from these methods. 
 
-
+// 4. To prevent any particular variable from being serialized in the class, declare the variable with 'transient' keyword
 }

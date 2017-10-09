@@ -17,7 +17,7 @@ public class TestAnimal {
 			}
 			public void print(){
 				int methodLocal = 20;//local variables can be used
-				System.out.println(stat);//static variables can be used inside anonymous class i.e static variable of parent class
+				System.out.println(stat);//static variables of parent can be accessed inside this anonymous class
 				System.out.println(instanceAnonymousVariable );//instance variable of anonymous class
 				System.out.println(staFin);//static final variable of anonymous class
 			}

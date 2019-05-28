@@ -1,5 +1,13 @@
 package ImmutableClass;
 
+/**
+ * The class needs to be made final.
+ * All the member variables are made private.
+ * No Setter methods for variables.
+ * All the mutable fields are made final, so that its value cannot be changed anytime.
+ * All the fields needs to be initialized only using constructor, so that a deep copy is made.
+ * In the getter methods for objects, return a deep copy of the object, so that only the copy will be accessed and not the original one.
+ */
 
 
 public final class Immutable {    //class as final
